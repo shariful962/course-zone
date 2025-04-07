@@ -17,7 +17,7 @@ const page = ({ params }) => {
            <h1 className="text-4xl text-amber-500 text-center">{course.title}</h1>
            <div className="flex items-center justify-center gap-3">
             <span className="inline-flex gap-2 items-center  bg-[#227BFE] py-2 px-3 rounded-md"><FaClock/> {course.duration} </span>
-            <span className="inline-flex gap-2 items-center  bg-[#227BFE] py-2 px-3 rounded-md"><FaLayerGroup /> {course.level} </span>
+            <span className="inline-flex gap-2 items-center  bg-[#319368] py-2 px-3 rounded-md"><FaLayerGroup /> {course.level} </span>
            </div>
            <h1 className="text-3xl text-center font-medium">Projects You Can Build:</h1>
            <div className="bg-[#444B5C] py-2 rounded-lg space-y-3">
