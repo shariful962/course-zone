@@ -11,7 +11,8 @@ import Link from "next/link";
 const CourseList = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8 xl:px-16 container mx-auto">
-      <div className="pt-12">
+      <div className="">
+        <h1 className="text-center text-4xl my-8">Welcome to CourseZone - Following Course We Offer </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {courses.map((course,index)=>(
                 <div key={index} className="text-center bg-[#2E2F3F] rounded-lg py-8 space-y-8 hover:-translate-y-2.5 cursor-pointer transition-all duration-500">
